@@ -1,0 +1,62 @@
+{
+  "PM2.5": {
+    "24h": {"value": 50, "unit": "µg/m³", "criteria": "NE más de 7 veces al año"},
+    "annual": {"value": 25, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "PM10": {
+    "24h": {"value": 100, "unit": "µg/m³", "criteria": "NE más de 7 veces al año"},
+    "annual": {"value": 50, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "SO2": {
+    "24h": {"value": 250, "unit": "µg/m³", "criteria": "NE más de 7 veces al año"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "NO2": {
+    "1h": {"value": 200, "unit": "µg/m³", "criteria": "NE más de 24 veces al año"},
+    "annual": {"value": 100, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "O3": {
+    "8h": {"value": 100, "unit": "µg/m³", "criteria": "Máxima media diaria NE más de 24 veces al año"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "CO": {
+    "1h": {"value": 30000, "unit": "µg/m³", "criteria": "NE más de 1 vez al año"},
+    "8h": {"value": 10000, "unit": "µg/m³", "criteria": "Media aritmética móvil"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "Benceno": {
+    "annual": {"value": 2, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "Hg (Mercurio Gaseoso Total)": {
+    "24h": {"value": 2, "unit": "µg/m³", "criteria": "No exceder (entra en vigencia con Protocolo de Monitoreo)"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "Pb (Plomo en PM10)": {
+    "mensual": {"value": 1.5, "unit": "µg/m³", "criteria": "NE más de 4 veces al año"},
+    "annual": {"value": 0.5, "unit": "µg/m³", "criteria": "Media aritmética de los valores mensuales"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "H2S": {
+    "24h": {"value": 150, "unit": "µg/m³", "criteria": "Media aritmética"},
+    "source": "D.S. 003-2017-MINAM"
+  },
+  "Arsénico (As) en PM10": {
+    "24h": {"value": 0.3, "unit": "µg/m³", "criteria": "No exceder"},
+    "annual": {"value": 0.023, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 011-2023-MINAM"
+  },
+  "Cadmio (Cd) en PM10": {
+    "24h": {"value": 0.09, "unit": "µg/m³", "criteria": "No exceder"},
+    "annual": {"value": 0.018, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 011-2023-MINAM"
+  },
+  "Cromo (Cr) en PM10": {
+    "24h": {"value": 0.5, "unit": "µg/m³", "criteria": "No exceder"},
+    "annual": {"value": 0.11, "unit": "µg/m³", "criteria": "Media aritmética anual"},
+    "source": "D.S. 011-2023-MINAM"
+  }
+}
